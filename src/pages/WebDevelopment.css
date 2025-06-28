@@ -1,0 +1,15 @@
+.page-content {
+    margin-left: 220px;
+    padding: 40px 30px;
+    min-height: 100vh;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  .page-content h1 {
+    font-size: 2rem;
+    color: #7c3aed; /* Same purple as Home */
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+  

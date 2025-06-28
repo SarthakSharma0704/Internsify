@@ -1,0 +1,45 @@
+.vertical-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background: linear-gradient(180deg, #0f172a, #1e293b);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+  
+  .vertical-navbar h2 {
+    margin: 0 0 30px 0;
+    font-size: 1.5rem;
+  }
+  
+  .vertical-navbar nav a {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+  }
+  
+  .vertical-navbar nav a:hover {
+    color: #60a5fa;
+    padding-left: 10px;
+  }
+  .vertical-navbar {
+    background: var(--nav-bg);
+    color: var(--nav-text);
+  }
+  
+  body.light {
+    --nav-bg: linear-gradient(180deg, #0f172a, #1e293b);
+    --nav-text: white;
+  }
+  
+  body.dark {
+    --nav-bg: linear-gradient(180deg, #1e293b, #334155);
+    --nav-text: #f8fafc;
+  }
+  
